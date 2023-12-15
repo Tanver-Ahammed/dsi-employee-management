@@ -10,9 +10,5 @@ public class AppsContent {
 
     protected static final String PASSWORD = "12345";
 
-    protected static final String INSERT_QUERY = "INSERT INTO `dsi`.`employee` (`name`, `email`, `contact`," +
-            " `address`, `password`, `designation`, `arrival_date`, `departure_date`)" +
-            " VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
-
 
 }
