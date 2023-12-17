@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>DSi Employee Management</title>
+    <%@include file="all_js_css.jsp" %>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<%--Navbar--%>
+<div class="container-fluid p-0 m-0">
+    <%@ include file="Navbar.jsp" %>
+</div>
+<img src="<%=request.getContextPath()%>/images/Tanver.jpg" height="300" width="270">
 </body>
 </html>
